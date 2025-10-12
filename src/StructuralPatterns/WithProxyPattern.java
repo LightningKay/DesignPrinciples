@@ -6,7 +6,7 @@ interface VideoDownloader1{
     String downloadVideo(String videoUrl);
 }
 
-class DownloadVideo{
+class DownloadVideo implements VideoDownloader1{
     public DownloadVideo(){
     }
     public String downloadVideo(String name){
