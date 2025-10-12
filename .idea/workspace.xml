@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff2dfb-f5a5-41b0-baa8-1ce2c9c1c5e9" name="Changes" comment="Design Patterns first commit">
-      <change afterPath="$PROJECT_DIR$/src/BehvioralPatterns/WithStrategyPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehvioralPatterns/WithoutStrategyPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehvioralPatterns/WithoutTemplatePattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,21 +46,8 @@
       <recent name="StructuralPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WithStrategyPattern">
+  <component name="RunManager" selected="Application.WithoutTemplatePattern">
     <configuration name="WithIteratorPattern (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithIteratorPattern" />
-      <module name="DesignPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BehvioralPatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WithIteratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithIteratorPattern" />
       <module name="DesignPrinciples" />
       <extension name="coverage">
@@ -114,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WithoutTemplatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithoutTemplatePattern" />
+      <module name="DesignPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehvioralPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WithoutTemplatePattern" />
         <item itemvalue="Application.WithStrategyPattern" />
         <item itemvalue="Application.WithoutStrategyPattern" />
         <item itemvalue="Application.WithObserverPattern" />
         <item itemvalue="Application.WithIteratorPattern (1)" />
-        <item itemvalue="Application.WithIteratorPattern" />
       </list>
     </recent_temporary>
   </component>
