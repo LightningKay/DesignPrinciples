@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff2dfb-f5a5-41b0-baa8-1ce2c9c1c5e9" name="Changes" comment="Design Patterns first commit">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/WithoutFlyWeightPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehvioralPatterns/WithIteratorPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehvioralPatterns/WithoutIteratorPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +47,7 @@
       <recent name="StructuralPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WithoutFlyWeightPattern">
-    <configuration name="WithBridgePattern (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.WithBridgePattern" />
-      <module name="DesignPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StructuralPatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WithIteratorPattern (1)">
     <configuration name="WithBridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.WithBridgePattern" />
       <module name="DesignPrinciples" />
@@ -86,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithProxyPattern (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.WithProxyPattern" />
+    <configuration name="WithIteratorPattern (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithIteratorPattern" />
       <module name="DesignPrinciples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.*" />
+          <option name="PATTERN" value="BehvioralPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutBridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.WithoutBridgePattern" />
+    <configuration name="WithIteratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithIteratorPattern" />
       <module name="DesignPrinciples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.*" />
+          <option name="PATTERN" value="BehvioralPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +106,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StructuralPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithoutIteratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithoutIteratorPattern" />
+      <module name="DesignPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehvioralPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WithIteratorPattern (1)" />
+        <item itemvalue="Application.WithIteratorPattern" />
+        <item itemvalue="Application.WithoutIteratorPattern" />
         <item itemvalue="Application.WithoutFlyWeightPattern" />
         <item itemvalue="Application.WithBridgePattern" />
-        <item itemvalue="Application.WithBridgePattern (1)" />
-        <item itemvalue="Application.WithoutBridgePattern" />
-        <item itemvalue="Application.WithProxyPattern (1)" />
       </list>
     </recent_temporary>
   </component>
