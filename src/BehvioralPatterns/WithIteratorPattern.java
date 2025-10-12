@@ -38,8 +38,8 @@ class VideoIterator implements PlaylistIterator{
     public Video1 next(){
         return hasNext() ? playlist.get(count++) : null;
     }
-
 }
+
 class VideoPlaylist1{
     String playlistName;
     private List<Video1> videos;

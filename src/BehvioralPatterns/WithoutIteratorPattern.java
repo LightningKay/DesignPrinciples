@@ -2,7 +2,7 @@ package BehvioralPatterns;
 
 import java.util.*;
 
-class Video {
+ class Video {
     String name;
     static long videoId = 1L;
     long currVideoId;
