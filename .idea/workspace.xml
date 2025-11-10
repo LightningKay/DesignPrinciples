@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff2dfb-f5a5-41b0-baa8-1ce2c9c1c5e9" name="Changes" comment="Design Patterns first commit">
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/FurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/FurnitureImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/FurnitureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/ModernChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/ModernSofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/ModernTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Sofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/VictorianChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/VictorianSofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/VictorianTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/CSTInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/CountryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/GSTInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Indiafactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/PayU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Paypal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/RazorPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/ReceiptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/Stripe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/USFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/AbstractFactoryPattern/USInvoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <recent name="StructuralPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FurnitureService">
+  <component name="RunManager" selected="Application.ReceiptService">
     <configuration name="ConstructMeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationPatterns.BuilderPattern.ConstructMeal" />
       <module name="DesignPrinciples" />
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithTemplatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithTemplatePattern" />
+    <configuration name="ReceiptService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationPatterns.AbstractFactoryPattern.ReceiptService" />
       <module name="DesignPrinciples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehvioralPatterns.*" />
+          <option name="PATTERN" value="CreationPatterns.AbstractFactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReceiptService" />
         <item itemvalue="Application.FurnitureService" />
         <item itemvalue="Application.ConstructMeal" />
         <item itemvalue="Application.LogisticsService" />
         <item itemvalue="Application.Product" />
-        <item itemvalue="Application.WithTemplatePattern" />
       </list>
     </recent_temporary>
   </component>
