@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff2dfb-f5a5-41b0-baa8-1ce2c9c1c5e9" name="Changes" comment="Design Patterns first commit">
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/Singleton/AnalyticsWithBillPurghTechnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/Singleton/AnalyticsWithEagerLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/Singleton/AnalyticsWithLazyLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/Singleton/AnalyticsWithSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/Singleton/SingletonPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehvioralPatterns/WithTemplatePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehvioralPatterns/WithTemplatePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/FactoryPattern/Air.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/FactoryPattern/LogisticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/FactoryPattern/Logistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/FactoryPattern/LogisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/FactoryPattern/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationPatterns/FactoryPattern/Train.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +52,20 @@
       <recent name="StructuralPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Product">
+  <component name="RunManager" selected="Application.LogisticsService">
+    <configuration name="LogisticsService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationPatterns.FactoryPattern.LogisticsService" />
+      <module name="DesignPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CreationPatterns.FactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Product" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Product" />
       <module name="DesignPrinciples" />
@@ -88,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutStrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithoutStrategyPattern" />
-      <module name="DesignPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BehvioralPatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WithoutTemplatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehvioralPatterns.WithoutTemplatePattern" />
       <module name="DesignPrinciples" />
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogisticsService" />
         <item itemvalue="Application.Product" />
         <item itemvalue="Application.WithTemplatePattern" />
         <item itemvalue="Application.WithoutTemplatePattern" />
         <item itemvalue="Application.WithStrategyPattern" />
-        <item itemvalue="Application.WithoutStrategyPattern" />
       </list>
     </recent_temporary>
   </component>
