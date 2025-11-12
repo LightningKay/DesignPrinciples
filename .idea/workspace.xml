@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff2dfb-f5a5-41b0-baa8-1ce2c9c1c5e9" name="Changes" comment="Design Patterns first commit">
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Checkout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Discount10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Discount20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/PayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/PromoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/ShoppingCartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/ShoppingCheckout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/Stripe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestionsPractice/ShoppingCart/USInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithOnions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PainBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithOnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PlainPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/ServiceLayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +59,7 @@
       <recent name="StructuralPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ServiceLayer">
     <configuration name="ConstructMeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationPatterns.BuilderPattern.ConstructMeal" />
       <module name="DesignPrinciples" />
@@ -85,19 +79,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CreationPatterns.AbstractFactoryPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogisticsService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationPatterns.FactoryPattern.LogisticsService" />
-      <module name="DesignPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreationPatterns.FactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceLayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.DecoraatorPatternForFoodApp.ServiceLayer" />
+      <module name="DesignPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StructuralPatterns.DecoraatorPatternForFoodApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServiceLayer" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReceiptService" />
         <item itemvalue="Application.FurnitureService" />
         <item itemvalue="Application.ConstructMeal" />
-        <item itemvalue="Application.LogisticsService" />
       </list>
     </recent_temporary>
   </component>
