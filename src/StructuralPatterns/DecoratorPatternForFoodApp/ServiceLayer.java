@@ -1,4 +1,4 @@
-package StructuralPatterns.DecoraatorPatternForFoodApp;
+package StructuralPatterns.DecoratorPatternForFoodApp;
 
 import java.util.*;
 

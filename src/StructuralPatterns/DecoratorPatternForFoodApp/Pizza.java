@@ -1,4 +1,4 @@
-package StructuralPatterns.DecoraatorPatternForFoodApp;
+package StructuralPatterns.DecoratorPatternForFoodApp;
 
 public interface Pizza extends Food {
     double getCost();
