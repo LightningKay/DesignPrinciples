@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff2dfb-f5a5-41b0-baa8-1ce2c9c1c5e9" name="Changes" comment="Design Patterns first commit">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithOnions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PainBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithOnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PlainPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/ServiceLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/BurgerDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/BurgerWithCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithOnions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/BurgerWithOnions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PainBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PainBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PizzaDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PizzaWithCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithOnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PizzaWithOnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PlainPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PlainPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/ServiceLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/ServiceLayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +112,11 @@
       </method>
     </configuration>
     <configuration name="ServiceLayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.DecoraatorPatternForFoodApp.ServiceLayer" />
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.DecoratorPatternForFoodApp.ServiceLayer" />
       <module name="DesignPrinciples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.DecoraatorPatternForFoodApp.*" />
+          <option name="PATTERN" value="StructuralPatterns.DecoratorPatternForFoodApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
