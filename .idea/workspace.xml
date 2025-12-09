@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff2dfb-f5a5-41b0-baa8-1ce2c9c1c5e9" name="Changes" comment="Design Patterns first commit">
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/BurgerDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/BurgerWithCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/BurgerWithOnions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/BurgerWithOnions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PainBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PainBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PizzaDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PizzaWithCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PizzaWithOnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PizzaWithOnion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/PlainPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/PlainPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/DecoraatorPatternForFoodApp/ServiceLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/DecoratorPatternForFoodApp/ServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SnakeGame/SnakeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SnakeGame/SnakeGameImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,33 +50,7 @@
       <recent name="StructuralPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServiceLayer">
-    <configuration name="ConstructMeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationPatterns.BuilderPattern.ConstructMeal" />
-      <module name="DesignPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreationPatterns.BuilderPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FurnitureService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationPatterns.AbstractFactoryPattern.FurnitureService" />
-      <module name="DesignPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreationPatterns.AbstractFactoryPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SnakeGameMyself">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignQuestionsPractice.ShoppingCart.Main" />
       <module name="DesignPrinciples" />
@@ -124,13 +90,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SnakeGameImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SnakeGame.SnakeGameImpl" />
+      <module name="DesignPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SnakeGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnakeGameMyself" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SnakeGame.SnakeGameMyself" />
+      <module name="DesignPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SnakeGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnakeGameMyself" />
+        <item itemvalue="Application.SnakeGameImpl" />
         <item itemvalue="Application.ServiceLayer" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReceiptService" />
-        <item itemvalue="Application.FurnitureService" />
-        <item itemvalue="Application.ConstructMeal" />
       </list>
     </recent_temporary>
   </component>
@@ -157,5 +149,86 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Design Patterns first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Design Patterns first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SnakeGame/SnakeGameMyself.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
